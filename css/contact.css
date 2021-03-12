@@ -1,0 +1,116 @@
+#contact .wave {
+	width: 100%;	
+    height: 70px;
+}
+
+#contact{
+	background: transparent linear-gradient(180deg, #FFB102 0%, #F70C16 100%) 0% 0% no-repeat padding-box;
+	overflow: auto;
+}
+
+#formulario{
+	float:right;
+	padding-top: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+}
+
+#atendimento{
+	padding-top: 5%;
+	padding-left: 5%;
+}
+
+#contact h2{
+	letter-spacing: 5px;
+	margin-bottom: 2%;
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+
+form{
+	margin-top: 7%;
+}
+
+label {
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #FFF;
+}
+
+
+.botao {
+	font-family: Quicksand;
+	letter-spacing: 2px;
+    font-size: 20px;
+    background: #FFB102;
+    border: 0;
+    color: #FFF;
+    padding: 5px 12px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.botao:hover {
+    background: #FB0;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select, label.checkbox {
+    cursor: pointer;
+}
+
+input, textarea {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+#formulario p{
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #FFF;
+
+}
+
+iframe{
+	background: transparent url('img/jovens.jpg') 0% 0% no-repeat padding-box;
+	box-shadow: 0px 10px 20px #00000080;
+	border-radius: 14px;
+	margin-top: 5%;
+	width: 35%;
+}
+
+#atendimento p{
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    line-height: 40px; 
+    color: #FFF;
+    margin-bottom: 2%;
+}
+#atendimento a{
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 40px;
+    color:#FFF;
+    padding: 10px 15px;
+    background-color: #F04D43;
+    border-radius: 14px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-decoration: none;	
+}
+
+#atendimento a:hover {
+    background: #a9a9a9;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}

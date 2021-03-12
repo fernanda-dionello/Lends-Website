@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+#pagina {
+	min-width: 1280px;
+	max-width: 100%;
+	font-family: "Quicksand";
+	font-weight: 300;
+
+}
+
+#nav_p{
+	width: 100%;
+	height: 80px;
+	background-color: #FFF;
+	position: fixed;
+	z-index: 1;
+	box-shadow: 0px 7px 8px #00000030;
+}
+
+
+#nav_p img{
+	height: 60px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 50px;
+}
+
+#nav_p ul{
+	float: right;
+	margin-right: 30px;
+}
+
+#nav_p ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+
+
+
+#nav_p ul li a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 600;
+	width: 90%;
+	margin-right: 150px;
+	font-size: 18px;
+	letter-spacing: 3px;
+	transition: color 0.4s;
+}
+
+#nav_p ul li a:hover{
+	color: #F70C16;
+}
+
+/*As artes do site em parte foram retiradas do site original com o consentimento do proprietário e algumas foram reformuladas
+pelo desenvolvedor Eduardo Pereira que criou o design, apenas via adobe illustrator, das imagens que estão dentro do slider e
+as que estão na categorias de aluguel. Em relação aos ícones, foram extraídos de sites que permitiam a livre reprodução sem o
+intuito comercial como https://www.flaticon.com/ */

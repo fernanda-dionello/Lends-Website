@@ -1,0 +1,160 @@
+
+#about{
+	line-height: 40px;
+}
+
+#about header{
+	text-align: center;
+	font-size: 30px;
+	height: 420px;
+}
+
+#about header h1{
+	padding-top: 10%;
+	padding-bottom: 2%;
+
+}
+
+#about header p{
+	font-weight: 400;
+}
+
+.titulos{
+	font-weight: 500;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 5px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#funcionamento{
+	background-color: #FABF3A;
+}
+
+#funcionamento h2{
+	padding-top: 10%;
+	margin-bottom: 2%;
+}
+
+#funcionamento p{
+	text-align: center;
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+}
+
+#funcionamento .wave {
+	width: 100%;	
+    height: 70px;
+    position: absolute;
+} 
+
+#jovens{
+	margin-left: 5%;
+	width: 40%;
+	float: left;
+	background: transparent url('img/jovens.jpg') 0% 0% no-repeat padding-box;
+	box-shadow: 0px 10px 20px #00000080;
+	border-radius: 14px;
+}
+#func{
+	padding-left: 50%;
+	font-weight: 400;
+	text-align: left;
+	margin-right: 5%;
+	padding-bottom: 5%;
+}
+
+#func ol{
+	list-style-type: none;
+}
+
+.icones_lends{
+	float: left;
+	width: 60px;
+	margin-right: 5%;
+}
+
+#func p{
+	text-align: left;
+	margin-left: 0;
+	font-size: 20px;
+}
+
+h3{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+#func ol p{
+	font-size: 16px;
+	margin-bottom: 30px;
+	font-weight: 600;
+}
+
+
+#beneficios{
+	background-color: #F04D43;
+	overflow: auto;
+}
+
+#funcionamento .wave_end {
+	width: 100%;
+    height: 70px;
+} 
+
+#beneficios h2{
+	padding-top: 5%;
+	margin-bottom: 3%;
+	color: #FFF;
+}
+
+#beneficios ul{
+	padding-left: 5%;
+	padding-bottom: 3%;
+	
+}
+
+#beneficios ul li{
+	list-style-type: none;
+	margin-bottom: 35px;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: left;
+	letter-spacing: 2px;
+	color: #FFF;
+}
+#beneficios_img{
+	width: 650px;
+	padding-right: 2%;
+	float: right;
+}
+
+#opinioes .wave {
+	width: 100%;	
+    height: 70px;
+
+} 
+
+
+#opinioes h2{
+	padding-top: 5%;
+}
+
+#depoimentos img{
+	margin-left: 5%;
+	width: 18%;
+	background: transparent url('img/jovens.jpg') 0% 0% no-repeat padding-box;
+	box-shadow: 0px 10px 20px #00000080;
+	border-radius: 14px;
+}
+
+#depoimentos{
+	margin-top: 3%;
+	padding-bottom: 5%;
+
+}
